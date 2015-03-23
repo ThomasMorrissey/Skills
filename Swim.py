@@ -7,3 +7,4 @@ class swim_speed(object):
         playerspeed = 1
         self.success = playerspeed/2
         self.failure = playerspeed*0
+#THIS PROGRAM IS INCOMPLETE
