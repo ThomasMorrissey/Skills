@@ -37,9 +37,4 @@ class Appraise(object):
 class player(object):
     def __init__(self):
         self.money=100.00
-def main():
-    Player=player()
-    Skill=Appraise()
-    Skill.Skill_Check()
-    print("YEAH, it works!")
-main()
+

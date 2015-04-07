@@ -6,16 +6,12 @@ def Skillcheck(Dc):
     Result=""
     player=Player()
     YourRoll=random.randrange(1,41)
-    print("Your Roll:",YourRoll)
     if "Nimble Fingers" in player.Mods:
         YourRoll += 2
-    print("Your Roll:",YourRoll)
     if "Thieves' tools" not in player.Mods:
         YourRoll -= 2
-    print("Your Roll:",YourRoll)
     if "Master Thieves' Tools" in player.Mods:
         YourRoll += 2
-    print("Your Roll:",YourRoll)
     if Dc > YourRoll:
         Result = "Failure"
     else:
@@ -28,6 +24,4 @@ def OpenLock():
         print("The Lock can not be opened.")
     else:
         print("The lock has been open.")
-def main():
-    OpenLock()
-main()
+

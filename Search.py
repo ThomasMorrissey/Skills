@@ -27,13 +27,6 @@ class skill(object):
 
 
 
-it = hidden_item()
-skills = skill()
 
-skills.search(it)
 
-def main():
-    hidden_item()
-    player()
-    skill()
-main()
+
